@@ -3,7 +3,9 @@ export interface Estate {
   name: string;
   location: string;
   price: string;
+  originalPrice: string;
   priceNote: string;
+  promoGift: string;
   title: string;
   description: string;
   features: string[];
@@ -20,17 +22,19 @@ export const estates: Estate[] = [
     slug: "berry-view-estates",
     name: "Berry View Estates",
     location: "Igwuruta-Ali, Port Harcourt",
-    price: "₦3,500,000",
+    price: "₦1,800,000",
+    originalPrice: "₦3,500,000",
     priceNote: "per plot (600sqm)",
+    promoGift: "25kg Rice OR ₦30k Voucher",
     title: "Registered Survey & Deed of Assignment",
     description:
-      "A fast-appreciating estate in the heart of Igwuruta-Ali — one of Port Harcourt's most rapidly developing corridors. Positioned near the international airport and major road networks, Berry View Estates offers investors a rare entry point into a high-growth zone before prices surge.",
+      "This is the one seasoned investors ask about first. Berry View sits in Igwuruta-Ali — minutes from Port Harcourt International Airport, right in the path of the city's most aggressive expansion. The land is 100% dry, the titles are airtight, and early buyers have already seen values climb sharply. If you want to own land where infrastructure is coming to meet you, not the other way around — this is it.",
     features: [
-      "5 minutes from Port Harcourt International Airport",
-      "Close to East-West Road & major expressways",
-      "100% dry land — build-ready all year round",
-      "Gated estate with planned road infrastructure",
-      "Rapid area development with rising land values",
+      "5 minutes from Port Harcourt International Airport — the growth epicentre",
+      "Direct access to East-West Road & major expressways",
+      "100% dry, build-ready land — no sand-filling, no flooding, no excuses",
+      "Gated estate with internal road network already planned",
+      "Surrounding area developing fast — value appreciation is not a question of if, but when",
     ],
     images: ["/estates/berry-view/1.jpg", "/estates/berry-view/2.jpg"],
     paymentPlan: {
@@ -43,17 +47,19 @@ export const estates: Estate[] = [
     slug: "jacobs-court",
     name: "Jacob's Court",
     location: "Omagwa, Port Harcourt",
-    price: "₦2,500,000",
+    price: "₦3,450,000",
+    originalPrice: "₦2,500,000",
     priceNote: "per plot (600sqm)",
+    promoGift: "50kg Rice OR ₦50k Voucher",
     title: "Registered Survey & Deed of Assignment",
     description:
-      "Strategically located in Omagwa — one of the fastest-developing areas along the airport corridor. Jacob's Court offers affordable land with verified documentation, making it the ideal choice for investors who want to enter the Port Harcourt market at the right time.",
+      "Jacob's Court is our smartest entry point for first-time investors. Sitting along the booming Omagwa airport corridor, it gives you verified, fenced land at a price that won't stay this low for long. The documentation is clean. The terrain is dry and flat. And the area around it is developing so fast that today's price will look like a steal 12 months from now.",
     features: [
-      "Along the airport corridor — high traffic & visibility",
-      "Close to Igwuruta and major commercial hubs",
-      "Dry, flat terrain — no sand-filling required",
-      "Fully fenced with estate access road",
-      "Affordable entry point with strong appreciation",
+      "Prime airport corridor location — high traffic, high demand, high appreciation",
+      "Minutes from Igwuruta and major commercial centres",
+      "Bone-dry, flat terrain — zero sand-filling cost",
+      "Fully perimeter-fenced with dedicated estate access road",
+      "The most affordable entry into Port Harcourt's land market — perfect for your first plot",
     ],
     images: [
       "/estates/jacobs-court/1.jpg",
@@ -70,17 +76,19 @@ export const estates: Estate[] = [
     slug: "morning-dew-estate",
     name: "Morning Dew Estate",
     location: "Isiokpo, Rivers State",
-    price: "₦1,800,000",
+    price: "₦1,590,000",
+    originalPrice: "₦1,800,000",
     priceNote: "per plot (600sqm)",
+    promoGift: "10kg Rice OR ₦20k Voucher",
     title: "Registered Survey & Deed of Assignment",
     description:
-      "Nestled in the serene environment of Isiokpo, Morning Dew Estate offers the perfect blend of affordability and future growth. As development pushes outward from Port Harcourt, early investors in this estate stand to benefit from significant land value appreciation.",
+      "At ₦1.59M per plot, Morning Dew is how smart investors get in early. Isiokpo is quiet now — but the expansion wave rolling out from Port Harcourt is already visible. Roads are improving. Communities are growing. And the investors who secure land here today are positioning themselves exactly where value is about to catch up. This is the kind of move you'll look back on with zero regret.",
     features: [
-      "Peaceful, fast-developing community",
-      "Connected to major roads leading to PH city center",
-      "100% dry land with natural drainage",
-      "Lowest entry price in our portfolio",
-      "Ideal for long-term investment or residential development",
+      "Serene, rapidly developing community with momentum building every quarter",
+      "Connected to major arterial roads leading straight to PH city centre",
+      "100% naturally dry land with built-in drainage — no extra costs",
+      "Our most accessible price point — start building wealth from ₦800K deposit",
+      "Ideal for long-term hold or future residential development",
     ],
     images: ["/estates/morning-dew/1.jpg"],
     paymentPlan: {
@@ -93,17 +101,19 @@ export const estates: Estate[] = [
     slug: "timaror-gardens",
     name: "Timaror Gardens Estate",
     location: "Odagwa, Port Harcourt",
-    price: "₦3,000,000",
+    price: "₦590,000",
+    originalPrice: "₦3,000,000",
     priceNote: "per plot (600sqm)",
+    promoGift: "5kg Rice OR ₦10k Voucher",
     title: "Registered Survey & Deed of Assignment",
     description:
-      "Our flagship estate — Timaror Gardens represents the premium standard in land investment. Located in Odagwa with excellent road access and a growing neighborhood, this estate is designed for investors who demand quality, security, and strong returns.",
+      "This is the flagship. Timaror Gardens is our premium offering — built for investors who want more than just land, they want an asset backed by solid infrastructure, verified documentation, and a location that's already proving its value. Odagwa is growing fast, the access roads are motorable today, and the neighbourhood is filling in around the estate. This is confidence-level investing.",
     features: [
-      "Premium estate with planned infrastructure",
-      "Motorable access road already in place",
-      "Close to established communities and markets",
-      "Secure documentation with verified titles",
-      "Strong track record of value appreciation",
+      "Our premium estate — the one we put our name on",
+      "Motorable access road already in place, not promised",
+      "Surrounded by established communities, schools, and active markets",
+      "Every document verified and ready for independent legal review",
+      "Consistent value appreciation backed by visible, on-ground development",
     ],
     images: ["/estates/timaror-gardens/1.jpg"],
     paymentPlan: {
@@ -133,16 +143,19 @@ export const testimonials = [
   {
     name: "Engr. Chukwudi Amadi",
     role: "Land Investor, Lagos",
-    text: "I was skeptical about buying land in Port Harcourt from Lagos. Timaror Properties made the entire process seamless — from documentation to physical inspection. My plot in Berry View has already appreciated by 40% in 18 months.",
+    image: "/testimonials/Bright.png",
+    text: "I almost didn't do it — buying land in PH from Lagos felt risky. But Timaror sent every document upfront, arranged my inspection, and followed up until I was comfortable. That was 18 months ago. My Berry View plot is now worth 40% more than I paid. Best financial decision I've made.",
   },
   {
-    name: "Mrs. Blessing Okafor",
+    name: "Mr. Evans Adekunle",
     role: "Diaspora Investor, UK",
-    text: "As a Nigerian in the diaspora, trust was everything for me. Timaror sent me video walkthroughs, verified documents, and even connected me with other buyers. I now own two plots in Jacob's Court and I'm planning to build next year.",
+    image: "/testimonials/Emmanuel.jpeg",
+    text: "Living abroad, I've heard every land scam story there is. Timaror was different — video walkthroughs, verified documents, and they even connected me with other diaspora buyers so I could hear their experience. I now own two plots in Jacob's Court. Building starts next year.",
   },
   {
     name: "Mr. Emeka Nwosu",
     role: "First-time Buyer, Port Harcourt",
-    text: "The flexible payment plan made it possible for me to own land as a young professional. The team was transparent and patient throughout. I highly recommend Timaror to anyone looking to invest in land.",
+    image: "/testimonials/Wilson.png",
+    text: "I'm a young professional — I didn't think I could afford land yet. The 6-month payment plan changed everything. I started with ₦800K, paid off my balance comfortably, and now I own a plot that's already appreciating. Timaror made me a landowner at 28.",
   },
 ];
