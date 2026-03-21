@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const estate = estates.find((e) => e.slug === slug);
   if (!estate) return {};
   return {
-    title: `${estate.name} — ${estate.price} | Timaror Properties`,
+    title: `${estate.name} — ${estate.price} | Timaror Property`,
     description: estate.description,
   };
 }
