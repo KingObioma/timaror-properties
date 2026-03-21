@@ -27,7 +27,7 @@ export default async function EstatePage({ params }: Props) {
   const estate = estates.find((e) => e.slug === slug);
   if (!estate) notFound();
 
-  const whatsappEstate = `https://wa.me/2349114728397?text=${encodeURIComponent(
+  const whatsappEstate = `https://wa.me/2349114778397?text=${encodeURIComponent(
     `Hello, I am interested in ${estate.name} (${estate.location}). Please send me more details.`
   )}`;
 
