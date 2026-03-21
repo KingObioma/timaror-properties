@@ -37,7 +37,7 @@ export default async function EstatePage({ params }: Props) {
       <section className="relative h-[55vh] sm:h-[65vh] flex items-end">
         <Image
           src={estate.images[0]}
-          alt={estate.name}
+          alt={estate.king}
           fill
           className="object-cover"
           priority
