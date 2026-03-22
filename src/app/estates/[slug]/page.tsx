@@ -105,7 +105,7 @@ export default async function EstatePage({ params }: Props) {
                 sub: estate.originalPrice ? `Was ${estate.originalPrice}` : estate.priceNote,
                 highlight: true,
               },
-              { label: "Land Title", value: flat.title, sub: null },
+              { label: "Land Title", value: estate.title, sub: null },
               {
                 label: "Payment Plan",
                 value: estate.paymentPlan.duration,
