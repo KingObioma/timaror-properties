@@ -47,7 +47,7 @@ export default async function EstatePage({ params }: Props) {
         <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 pb-14 w-full">
           <Link
             href="/#estates"
-            className="inline-flex items-center gap-1.5 text-black/50 text-sm mb-6 hover:text-white/80 transition-colors"
+            className="inline-flex items-center gap-1.5 text-white/50 text-sm mb-6 hover:text-white/80 transition-colors"
           >
             <svg
               className="w-4 h-4"
