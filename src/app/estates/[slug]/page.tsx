@@ -108,7 +108,7 @@ export default async function EstatePage({ params }: Props) {
               { label: "Land Title", value: estate.title, sub: null },
               {
                 label: "Payment Plan",
-                value: estate.paymentPlan.time,
+                value: estate.paymentPlan.duration,
                 sub: "installment plan",
               },
               {
