@@ -133,7 +133,7 @@ export default async function EstatePage({ params }: Props) {
                   {item.value}
                 </div>
                 {item.sub && (
-                  <div className="text-xs text-muted mt-0.5">{item.subs}</div>
+                  <div className="text-xs text-muted mt-0.5">{item.sub}</div>
                 )}
               </div>
             ))}
