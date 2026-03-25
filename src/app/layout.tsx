@@ -11,7 +11,7 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Timaror Properties — Verified Lands Investment in Port Harcourt",
+  title: "Timaror Properties — Verified Land Investment in Port Harcourt",
   description:
     "Secure verified land in Port Harcourt's fastest-growing locations. CAC registered, flexible payment plans, trusted by 500+ investors. Book an inspection today.",
   openGraph: {
