@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Timaror Properties — Verified Land Investment in Port Harcourt",
     description:
-      "Secure verified land in Port Harcourt's fastest-growing locations. Flexible payment plans available.",
+      "Secure verified land in Port Harcourts fastest-growing locations. Flexible payment plans available.",
     type: "website",
   },
 };
