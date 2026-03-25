@@ -113,7 +113,7 @@ export default async function EstatePage({ params }: Props) {
               },
               {
                 label: "Status",
-                value: "Actively Selling",
+                value: "Actively buying",
                 sub: null,
                 dot: true,
               },
